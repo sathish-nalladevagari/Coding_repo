@@ -5,9 +5,8 @@ class Solution:
     def missingNumber(self,array,n):
         # code here
         s = sum(array)
-        req = (n*(n+1))//2
+        req = n*(n+1)//2
         return req-s
-                
             
 
 
